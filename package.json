@@ -1,0 +1,9 @@
+{
+  "name": "@jisr-pay/payment-router-contract",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=24.15.0 <25" },
+  "scripts": { "inspect": "node scripts/inspect-deployment.js", "build": "node --check scripts/inspect-deployment.js" },
+  "dependencies": { "@stellar/stellar-sdk": "16.0.1" }
+}
