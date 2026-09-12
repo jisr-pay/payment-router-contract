@@ -1,3 +1,5 @@
+<p align="center"><img src="https://raw.githubusercontent.com/jisr-pay/.github/main/assets/icon.svg" alt="Jisr" width="72"></p>
+
 # Payment Router Contract
 
 Deployment inspection and original-source recovery workspace for Jisr Pay's Soroban payment router. **Original Rust source is not present.** No replacement contract is represented as the deployed original.
