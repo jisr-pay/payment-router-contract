@@ -1,0 +1,71 @@
+{
+  "network": "testnet",
+  "checked_at": "2026-10-08T13:18:10.927658+00:00",
+  "contract_id": "CCGSUUQLWXKU6AZ6YKUNXLR7R6KLBYBG4AJGJ54XV4DC63AJ3LDVPNW4",
+  "token": "CDLZFC3SYJYDZT7K67VZ75HPJVIEUVNIXF47ZG2FB2RMQQVU2HHGCYSC",
+  "fee_bps": 125,
+  "wasm_sha256": "a1cd11b5dd9eaf6c625e7aa17cc2536e1c12fe71d1d6b2b315b6a5cfe2380784",
+  "accounts": {
+    "sender": "GB34YRHMR75TG554F7PUUKOPNZZVNCNW3BGO3VN7N5E2C3DOC2DSXWY2",
+    "recipient": "GBSRRMJVNL2L66LZKZNHNAZDDJ7XXOJ65HC7Z52A4HG7PT7QJG5MFP24",
+    "treasury": "GBHS7NUWCDQAQSC2DFM5E7BBYRD74KVJPCVE3OVYMU7LBQDSJBY34AAP"
+  },
+  "transaction_hashes": [
+    "49ad362db975c5a270986dff489323729565d2dee611e7e930998ed594e46bac",
+    "2b64055454053e2b0fb6c404755c078fb457419616fcab0ce20906e408e13d9c",
+    "6e79ed7847d34d19fb0d9f8bf43282cd583972537a41d539559a610a7f108910"
+  ],
+  "amount_units": "10000000",
+  "net_units": "9875000",
+  "fee_units": "125000",
+  "balance_changes": {
+    "recipient": "0.9875000",
+    "treasury": "0.0125000"
+  },
+  "checks": [
+    "deployment succeeded",
+    "sender-authorized invocation succeeded",
+    "recipient exact net verified",
+    "treasury exact fee verified"
+  ],
+  "note": "Synthetic Testnet demonstration; disposable keys removed. Not production or browser acceptance.",
+  "transactions": [
+    {
+      "hash": "49ad362db975c5a270986dff489323729565d2dee611e7e930998ed594e46bac",
+      "ledger": 5088373,
+      "successful": true,
+      "operation_count": 1,
+      "explorer": "https://stellar.expert/explorer/testnet/tx/49ad362db975c5a270986dff489323729565d2dee611e7e930998ed594e46bac"
+    },
+    {
+      "hash": "2b64055454053e2b0fb6c404755c078fb457419616fcab0ce20906e408e13d9c",
+      "ledger": 5088375,
+      "successful": true,
+      "operation_count": 1,
+      "explorer": "https://stellar.expert/explorer/testnet/tx/2b64055454053e2b0fb6c404755c078fb457419616fcab0ce20906e408e13d9c"
+    },
+    {
+      "hash": "6e79ed7847d34d19fb0d9f8bf43282cd583972537a41d539559a610a7f108910",
+      "ledger": 5088380,
+      "successful": true,
+      "operation_count": 1,
+      "explorer": "https://stellar.expert/explorer/testnet/tx/6e79ed7847d34d19fb0d9f8bf43282cd583972537a41d539559a610a7f108910"
+    }
+  ],
+  "explorer_contract_record": {
+    "contract": "CCGSUUQLWXKU6AZ6YKUNXLR7R6KLBYBG4AJGJ54XV4DC63AJ3LDVPNW4",
+    "created": 1791465462,
+    "creator": "GB34YRHMR75TG554F7PUUKOPNZZVNCNW3BGO3VN7N5E2C3DOC2DSXWY2",
+    "wasm": "a1cd11b5dd9eaf6c625e7aa17cc2536e1c12fe71d1d6b2b315b6a5cfe2380784",
+    "invocations": 2,
+    "subinvocation": 0,
+    "events": 1,
+    "errors": 0,
+    "storage_entries": 1,
+    "validation": {
+      "status": "unverified"
+    }
+  },
+  "deployed_wasm_hash": "a1cd11b5dd9eaf6c625e7aa17cc2536e1c12fe71d1d6b2b315b6a5cfe2380784",
+  "source_wasm_matches_deployed": true
+}
