@@ -1,0 +1,21 @@
+name: Router checks
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  contract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          targets: wasm32v1-none
+          components: rustfmt
+      - run: cargo fmt --check
+      - run: cargo check --locked
+      - run: cargo test --locked --all
+      - run: cargo build --locked --target wasm32v1-none --release
+      - uses: actions/upload-artifact@v4
+        with:
+          name: payment-router-wasm
+          path: target/wasm32v1-none/release/jisr_payment_router.wasm
