@@ -160,3 +160,12 @@ Open a focused feat/fix/test/docs branch. PRs explain behavior and actual valida
 - [Add token-transfer denial and rollback fixtures](https://github.com/jisr-pay/payment-router-contract/issues/5)
 - [Document integer fee rounding with consumer examples](https://github.com/jisr-pay/payment-router-contract/issues/6)
 - [Design reviewed deployment ownership and network release gates](https://github.com/jisr-pay/payment-router-contract/issues/7)
+
+## Published contributor issues
+
+- [Add a reviewed instance TTL and restoration workflow](https://github.com/jisr-pay/payment-router-contract/issues/2) — proposed medium.
+- [Decode router settlement evidence in the Jisr API](https://github.com/jisr-pay/payment-router-contract/issues/3) — proposed high.
+- [Verify a consumer invocation against deployed WASM provenance](https://github.com/jisr-pay/payment-router-contract/issues/4) — proposed medium.
+- [Add token-transfer denial and rollback fixtures](https://github.com/jisr-pay/payment-router-contract/issues/5) — proposed medium.
+- [Document integer fee rounding with consumer examples](https://github.com/jisr-pay/payment-router-contract/issues/6) — proposed trivial.
+- [Design reviewed deployment ownership and network release gates](https://github.com/jisr-pay/payment-router-contract/issues/7) — proposed high.
