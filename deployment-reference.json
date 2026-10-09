@@ -1,0 +1,12 @@
+{
+  "network": "TESTNET",
+  "networkPassphrase": "Test SDF Network ; September 2015",
+  "rpcUrl": "https://soroban-testnet.stellar.org",
+  "contractId": "CDNQ7OMHIFOLZHOKWQLOGDW7CF3DRMKXJC6OULNGNBWF4O4NO2NEIGER",
+  "tokenAddress": "CDLZFC3SYJYDZT7K67VZ75HPJVIEUVNIXF47ZG2FB2RMQQVU2HHGCYSC",
+  "treasuryAddress": "GAAFWEZKDYPXLTQGKQ3F23TXWYQUDAYTDW7P7VUQSVJFW2GWC4Y6LWST",
+  "expectedFunction": "route_payment",
+  "expectedArgumentOrder": ["sender", "recipient", "platform_treasury", "token_address", "amount"],
+  "referenceSource": "jisr-pay web checkout: artifacts/jisr-pay/src/lib/network-config.ts and stellar.ts",
+  "sourceVerification": "Original Rust source and reproducible build not yet provided. Client defaults are not proof of deployment."
+}
